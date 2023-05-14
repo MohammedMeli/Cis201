@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>McDonald's Restaurant</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head> 
+<style>
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-color: #f8f8f8;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+{ 
+max-width:100%;
+max-height:100%;
+}
+header {
+  background-color: #f00;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #fff;
+  color: #f00;
+}
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+section div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section div img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  transition: transform .2s;
+}
+
+section div img:hover {
+  transform: scale(1.1);
+}
+
+section div h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+section div p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+</style>
+
+<html>
+<head>
+	<title>McDonald's Restaurant</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+	<img src="https://yt3.ggpht.com/-avTHbIvvjKY/AAAAAAAAAAI/AAAAAAAAAAA/GtO4B-SrWkA/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" alt="McDonald's" width="50px" height="50px">
+		<h1>McDonald's Restaurant</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="locations.html">Locations</a></li>
+				<li><a href="Contact Us.html">Contact Us</a></li>
+				<li><a href="suggestionscomplainants.html">suggestions & complainants</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<!-- Add Best Sellers Section -->
+		<section class="best-sellers">
+			<h2>Best Sellers</h2>
+			<div class="container">
+				<!-- Add Best Seller Items -->
+				<div class="card">
+					<img src="https://www.sickchirpse.com/wp-content/uploads/2018/11/Big-Mac-1000x600.jpg" alt="Big Mac">
+					<h3>Big Mac</h3>
+					<p>Two all-beef patties, special sauce, lettuce, cheese, pickles, onions on a sesame seed bun.</p>
+					<p>$3.99</p>
+				</div>
+				<div class="card">
+					<img src="https://townsquare.media/site/782/files/2021/04/RS22181_GettyImages-177413819-scr.jpg?w=1200&h=0&zc=1&s=0&a=t&q=89" alt="McNuggets">
+					<h3>Chicken McNuggets</h3>
+					<p>Our tender, juicy Chicken McNuggets are made with 100% white meat chicken and no artificialcolors, flavors or preservatives.</p>
+					<p>$4.49</p>
+				</div>
+				<div class="card">
+					<img src="https://th.bing.com/th/id/R.e67729c925a149b2744fe75e2e66f4fe?rik=A7bq46UeaF%2briQ&pid=ImgRaw&r=0" alt="French Fries">
+					<h3>World Famous Fries</h3>
+					<p>Our World Famous Fries are made with premium potatoes such as the Russet Burbank and the Shepody.</p>
+					<p>$1.89</p>
+				</div>
+				<div class="card">
+					<img src="https://th.bing.com/th/id/R.e58fc18b2ab8aef05bdd8430723e1c0b?rik=unJH15Wkh0ClOg&pid=ImgRaw&r=0">
+					<h3>Oreo McFlurry</h3>
+					<p>Our delicious Oreo McFlurry is made with creamy vanilla soft serve and Oreo cookie pieces, blended to perfection.</p>
+					<p>$2.69</p>
+				</div>
+			</div>
+		</section>
+	</main>
+
+ 
+			</ul>
+		</section>
+	</main>
+
+	<main>
+		<section class="featured-items">
+			<h2>Featured Items</h2>
+			<div>
+				<img src="https://www.sickchirpse.com/wp-content/uploads/2018/11/Big-Mac-1000x600.jpg" alt="Big Mac">
+				<h3>Big Mac</h3>
+				<p>Two all-beef patties, special sauce, lettuce, cheese, pickles, onions on a sesame seed bun.</p>
+				<p>$3.99</p>
+			</div>
+			<div>
+				<img src="https://townsquare.media/site/782/files/2021/04/RS22181_GettyImages-177413819-scr.jpg?w=1200&h=0&zc=1&s=0&a=t&q=89" alt="McNuggets">
+				<h3>Chicken McNuggets</h3>
+				<p>Our tender, juicy Chicken McNuggets are made with 100% white meat chicken and no artificial colors, flavors or preservatives.</p>
+				<p>$4.29</p>
+			</div>
+			<div>
+				<img src="https://th.bing.com/th/id/R.fa6707294d3fc23301df9f701841c023?rik=0NIKGoROP8P07g&pid=ImgRaw&r=0" alt="French Fries">
+				<h3>French Fries</h3>
+				<p>Crispy, golden brown French fries.</p>
+				<p>$1.39</p>
+			</div>
+		</section>
+
+		<section class="new-arrivals">
+			<h2>New Arrivals</h2>
+			<div>
+				<img src="https://i.pinimg.com/originals/14/f7/30/14f73072c374f77fb97e71bf7d5bcff5.png" alt="Big Breakfast">
+				<h3>Big Breakfast</h3>
+				<p>A warm, hearty morning meal featuring savory hot sausage, fluffy scrambled eggs, crispy Hash Browns and golden brown hotcakes with a side of real butter and the sweet flavor of maple.</p>
+				<p>$5.49</p>
+			</div>
+			<div>
+				<img src="https://www.gannett-cdn.com/-mm-/3b43c9748e86d4933adb73cccfc9392c899cf3e0/c=0-845-3000-2540/local/-/media/2016/07/21/PAGroup/YorkDailyRecord/636047249383864478-100-Oreo-McFlurry-1-.jpg?width=3200&height=1680&fit=crop" alt="McFlurry">
+				<h3>McFlurry</h3>
+				<p>Vanilla soft serve with your choice of candy mixed in.</p>
+				<p>$2.99</p>
+			</div>
+			<div>
+				<img src="https://www.gannett-cdn.com/-mm-/adad8e438ee623475b0a9496298e3affecb54878/c=0-331-2626-1815/local/-/media/2018/05/22/USATODAY/USATODAY/636625789361723012-80-Quarter-Pounder-with-Cheese.jpg?width=3200&height=1680&fit=crop" alt="Quarter Pounder">
+				<h3>Quarter Pounder with Cheese</h3>
+				<p>A quarter pound of 100% pure beef, topped with two slices of cheese, onions, pickles, mustard, and ketchup on a sesame seed bun.</p>
+				<p>$4.29</p>
+			</div>
+		</section>
+
+		<section class="promotions">
+			<h2>Promotions</h2>
+			<div>
+				<img src="https://th.bing.com/th/id/R.6054af7c7b2d7d445d86c92b6cf74779?rik=fY7V2d1BVJsNJw&pid=ImgRaw&r=0" alt="McChicken">
+				<h3>McChicken</h3>
+				<p>A tender, juicy chicken patty topped with lettuce and mayonnaise on a sesame seed bun.</p>
+				<p>$1.99</p>
+			</div>
+			<div>
+				<img src="https://th.bing.com/th/id/R.0dd5f39d4c5bd72366e5a562f71df203?rik=onpwFjUT0K70kg&pid=ImgRaw&r=0" alt="Cheeseburger">
+				<h3>Cheeseburger</h3>
+				<p>A juicy beef patty topped with a slice of melted cheese, pickles, onions, ketchup, and mustard on a toasted bun.</p>
+				<p>$1.19</p>
+			</div>
+			<div>
+				<img src="https://th.bing.com/th/id/R.098bd151de6207072e95211dc8c81196?rik=Ow7S7KQSgu8LJQ&pid=ImgRaw&r=0" alt="Filet-O-Fish">
+				<h3>Filet-O-Fish</h3>
+				<p>A wild-caught fish fillet topped with tangy tartar sauce and cheese on a soft, steamed bun.</p>
+				<p>$3.79</p>
+			</div>
+		</section>
+
+	<footer>
+		<p>&copy; 2023 McDonald's Corporation</p>
+	</footer>
+</body>
+</html>
